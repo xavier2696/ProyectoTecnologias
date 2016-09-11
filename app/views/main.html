@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <image id="imagen">
+  <input ng-model="url" type="text">
+  <button ng-click="obtainEmotions()">Submit</button>
+  <div ng-repeat='description in emotionDescriptions'>
+    Cara#{{description.number+": "+description.text}}
+  </div>
+</div>
