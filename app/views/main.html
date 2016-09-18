@@ -1,8 +1,13 @@
 <div class="jumbotron">
-  <image id="imagen">
-  <input ng-model="url" type="text">
-  <button ng-click="obtainEmotions()">Submit</button>
-  <div ng-repeat='description in emotionDescriptions'>
-    Cara#{{description.number+": "+description.text}}
-  </div>
+    <div class="image-wrapper">
+        <image id="imagen" src=http://www.free-icons-download.net/images/upload-button-icon-72898.png>
+    </div>
+    <div class="form-group enolve">
+        <input ng-model="url" class="form-control input-image" type="text">
+        <button ng-click="obtainEmotions()" class="btn btn-info">
+        <span class="glyphicon glyphicon-camera"></span> &nbsp Subir Imagen </button>
+    </div>
+    <div ng-repeat='description in emotionDescriptions'>
+        Cara#{{description.number+": "+description.text}}
+    </div>
 </div>
