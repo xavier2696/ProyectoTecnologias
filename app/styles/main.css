@@ -100,8 +100,6 @@ body {
 }
 
 #imagen {
-    width: 600px;
-    height: 500px;
 }
 
 .image-wrapper {
@@ -138,4 +136,7 @@ body {
 .jumbotron {
     background-color: #D0DFEC;
     opacity: 0.8;
+}
+.tooltip-inner {
+    white-space: pre-wrap;
 }
